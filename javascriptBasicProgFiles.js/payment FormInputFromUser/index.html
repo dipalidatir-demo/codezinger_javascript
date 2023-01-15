@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables</title>
+</head>
+
+<body> <h1>building a payment form </h1></body> 
+<script>
+    // here we make one form in it we take i/p from user in browser it means user can add its responce from browser
+    // NAMING CONVENSIONS 
+    //1.camelCase
+    let firstName = "Dipali";
+    //2.PascalCase
+    let LastName = "datir";
+    //3.snakeCase
+    let middle_name = "vishnu";
+
+    //using constant(const keyword)
+    const price = 100;  // can't change its value
+
+    // course Name(string) 
+    var courseName = "javascript DS/Algo course" // important thing about string is if we add value in string for output like in console.log
+                                                 // or in alert then this variables value can't be initialize only print that variable as it is
+
+    // card Number(Number)
+    var cardNumber = " 1335348950";
+
+    //payment status (Boolean)
+    var isPaid = true; // only declare variable here now not add value here we can add value later
+
+    //Declaring a variable
+    var modeOfPayment;
+
+    //taking input value from user
+    modeOfPayment = prompt("modeOfPayment?");
+
+    //output to user
+    alert(firstName + "succesfully bought" + courseName + "using" + modeOfPayment); // here "succesfully bought " and "using"
+                                                                                    // add in string so its value cant be initialize this print as it is in output
+</script>
+
+</html>

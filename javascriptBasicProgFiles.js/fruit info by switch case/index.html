@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables</title>
+</head>
+
+<body><h1> let's know about fruits</h1>></body> 
+<script>
+    var fruitType=prompt("which fruit you want?") // we made one variable here which is fruittype
+    switch (fruitType){
+    case 'orange':                                  //type of fruit
+         console.log("orange is 80rs per kg");   //price of fruit
+         break;                                  // break checking it check only that case which is custmer want
+    case 'apple':
+        console.log("apple is 90rs per kg");
+        break;
+
+    case 'strowberry': 
+        console.log(" strowberry is 120rs per kg");
+        break;
+
+    default: 
+        console.log(`${fruitType}no more fruit available it will available by tomorrow`);
+         // use for any other fruit ` ` $ {} we use this bcz of this no need of concatination
+
+    }
+    console.log("anything else"); // extra
+  
+    //for checking o/p of this go run program in chrome then go to inspect and goto console
+    </script>
+
+    </html>
